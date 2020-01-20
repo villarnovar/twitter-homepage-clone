@@ -1,0 +1,121 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maindiv{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 93vh 7vh;
+}
+
+.maindiv .firstdiv{
+    background-color: #1da1f2;
+    grid-column: 1 / 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-row: 1 / 2;
+    background-image: url("twitter.png");
+    background-repeat: no-repeat;
+    background-position: 300px;
+}
+.maindiv .firstdiv ul li{
+    color: white;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.maindiv .seconddiv{
+    background-color: white;
+    grid-column: 2 / -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maindiv .seconddiv .rightside{
+    min-width: 300px;
+    padding: 0 60px;
+}
+.maindiv .seconddiv .rightside  .logobutton{
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+}
+
+
+.maindiv .footerdiv{
+    background-color: white;
+    grid-column: 1 / -1;
+    border-top: 1px solid white;
+}
+
+.maindiv .seconddiv{
+    min-width: 270px;
+    padding: 0 60px;
+}
+
+.maindiv .seconddiv .rightside  .logobutton i{
+    color: #1da1f2;
+    font-size: 40px;
+
+}
+
+.firstbtn{
+    display: block;
+    border-radius: 100px;
+    line-height: 20px;
+    border: 1px solid #1da1f2;
+    background-color: white;
+    color: #1da1f2;
+}
+h1{
+    font-size: 30px;
+    width: 80%;
+}
+p{
+    font-size: 18px;
+    padding-top: 30px;
+}
+.secondbtn{
+    display: block;
+    border-radius: 100px;
+    width: 80%;
+    border: 1px solid ;
+    background-color: #1da1f2;
+    color: white;
+    height: 35px;
+    font-weight: bold;
+}
+
+.thirdbtn{
+    display: block;
+    border-radius: 100px;
+    width: 80%;
+    border: 1px solid ;
+    background-color: white;
+    color: #1da1f2;
+    height: 35px;
+    font-weight: bold;
+
+}
+
+.maindiv .footerdiv ul{
+    text-align: center;
+    list-style-type: none;
+}
+.maindiv .footerdiv ul li{
+    display: inline-block;
+    margin: 5px;
+    font-size: 13px;
+}
+.maindiv .footerdiv ul li a{
+    text-decoration-line: none;
+    color: grey;
+}
